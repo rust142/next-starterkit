@@ -6,13 +6,11 @@
   "editor.indentSize": "tabSize",
   "editor.detectIndentation": true,
   "editor.tabSize": 2,
-  // "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
   "editor.formatOnType": false,
-  "editor.formatOnSave": true,
-  "files.autoSave": "onFocusChange",
-  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false, // Gunakan 'bun lint' dan 'bun format' aja
+  "files.autoSave": "off",
+  "editor.formatOnPaste": false,
   "editor.formatOnSaveMode": "file",
-  // "vs-code-prettier-eslint.prettierLast": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
