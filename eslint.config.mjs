@@ -52,6 +52,7 @@ const eslintConfig = [
       'no-console': ['warn'],
       'eqeqeq': ['error', 'always'],
       'quotes': ['warn', 'single'],
+      'semi': ['warn', 'never'],
       'consistent-return': ['error'],
       'object-shorthand': ['warn', 'always'],
       'array-callback-return': ['error', { allowImplicit: true }],
