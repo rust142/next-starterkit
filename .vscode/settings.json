@@ -1,0 +1,22 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "eslint.validate": ["javascript", "typescript"],
+  "editor.suggest.preview": true,
+  "editor.snippetSuggestions": "inline",
+  "editor.indentSize": "tabSize",
+  "editor.detectIndentation": true,
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnType": false,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSaveMode": "file",
+  "vs-code-prettier-eslint.prettierLast": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  }
+}
