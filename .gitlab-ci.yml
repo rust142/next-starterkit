@@ -1,0 +1,16 @@
+stages:
+  - lint
+
+eslint:
+  stage: lint
+  image: node:latest
+  before_script:
+    - npm install
+  script:
+    - npm run lint
+  only:
+    - merge_requests
+    - branches
+  except:
+    - master
+    - main

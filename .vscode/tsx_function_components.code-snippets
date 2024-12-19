@@ -1,0 +1,22 @@
+{
+  "Tsx Func Component": {
+    "prefix": "rfc",
+    "body": [
+      "import React, { useState } from 'react'\n",
+      "interface ${TM_FILENAME_BASE}Props {",
+      "\tchildren: React.ReactElement",
+      "\tstyle: React.CSSProperties",
+      "\tonClick: () => void",
+      "\tonChange: (event: React.ChangeEvent<HTMLInputElement>) => void",
+      "}\n",
+      "const ${TM_FILENAME_BASE}: React.FC<${TM_FILENAME_BASE}Props> = (props): JSX.Element => {",
+      "\tconst [state, setState] = useState(false)\n",
+      "\treturn (",
+      "\t\t<div>${1:Something}</div>",
+      "\t)",
+      "}\n",
+      "export default ${TM_FILENAME_BASE}",
+    ],
+    "description": "Typescript React Functional Component",
+  },
+}
